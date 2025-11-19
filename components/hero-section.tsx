@@ -5,7 +5,7 @@ export function HeroSection() {
       <div 
         className="absolute inset-0 opacity-40"
         style={{
-          backgroundImage: 'url(/placeholder.svg?height=1080&width=1920&query=luxury-skincare-spa-facial-treatment)',
+          backgroundImage: 'url(/hero-luxury-spa-facial.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

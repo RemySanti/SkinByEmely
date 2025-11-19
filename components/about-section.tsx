@@ -1,3 +1,5 @@
+'use client';
+
 import { Sparkles, Award, Heart, Star } from 'lucide-react'
 
 export function AboutSection() {
@@ -130,20 +132,6 @@ export function AboutSection() {
           </div>
         </div>
       </div>
-
-      <style jsx>{`
-        @keyframes float {
-          0%, 100% {
-            transform: translateY(0px);
-          }
-          50% {
-            transform: translateY(-10px);
-          }
-        }
-        .animate-float {
-          animation: float 3s ease-in-out infinite;
-        }
-      `}</style>
     </section>
   );
 }
