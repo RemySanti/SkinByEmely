@@ -33,8 +33,8 @@ export function Navigation() {
 
   const menuItems = [
     { label: 'Home', href: '/' },
-    { label: 'About', href: '/#about' },
-    { label: 'Reviews', href: '/#reviews' },
+    { label: 'About', href: '/about' },
+    { label: 'Reviews', href: '/reviews' },
     { label: 'Contact', href: '/#contact' },
   ];
 
